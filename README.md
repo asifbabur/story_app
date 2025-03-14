@@ -1,5 +1,7 @@
 # Flutter Story App UI
 
+![](assets/preview.png)
+
 
 ## Getting Started
 
