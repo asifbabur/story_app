@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_story_app/common/extensions.dart';
 import 'package:my_story_app/features/home/Presentation/app_state.dart';
 
 class StoryScreen extends StatefulWidget {
@@ -23,6 +24,8 @@ class _StoryScreenState extends State<StoryScreen> {
       body: Column(
         children: [
           appState.buildTopBar(),
+          5.height,
+          appState.buildSectionTitle("Story 1"),
         ],
       ),
     );
